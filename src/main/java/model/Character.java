@@ -3,10 +3,22 @@ package model;
 import java.util.List;
 
 public class Character {
+    //IMMUTABLE CHARACTERISTICS
     private String name;
     private String description;
     private CharRace charRace;
     private CharClass charClass;
+    private String background;
+    private Integer age;
+    private Integer height;
+    private Integer weight;
+    private String eyeColor;
+    private String skinColor;
+    private String hair;
+    private String alignment;
+    private List<String> languages;
+
+    //MUTABLE CHARACTERISTICS
     private Integer level;
     private List<Integer> abilityModifiers;
     private List<Integer> abilityScores;
@@ -20,15 +32,6 @@ public class Character {
     private Integer totalHitPoints;
     private List<String> equipment;
     private List<Attack> attacks;
-    private String background;
     private List<String> traits;
     private List<String> features;
-    private Integer age;
-    private Integer height;
-    private Integer weight;
-    private String eyeColor;
-    private String skinColor;
-    private String hair;
-    private String alignment;
-    private List<String> languages;
 }
