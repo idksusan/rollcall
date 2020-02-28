@@ -20,8 +20,7 @@ public class Character {
 
     //MUTABLE CHARACTERISTICS
     private Integer level;
-    private List<Integer> abilityModifiers;
-    private List<Integer> abilityScores;
+    private List<Ability> abilityModifiers;
     private Integer proficiencyBonus;
     private List<Integer> savingThrowModifiers;
     private List<Integer> skillModifiers;
