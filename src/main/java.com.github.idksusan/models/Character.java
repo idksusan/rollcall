@@ -3,20 +3,7 @@ package models;
 import java.util.List;
 
 public class Character {
-    //IMMUTABLE CHARACTERISTICS
-    private String name;
-    private String description;
-    private CharRace charRace;
-    private CharClass charClass;
-    private String background;
-    private Integer age;
-    private Integer height;
-    private Integer weight;
-    private String eyeColor;
-    private String skinColor;
-    private String hair;
-    private String alignment;
-    private List<String> languages;
+    private ImmutableCharacteristics immutableCharacteristics;
 
     //MUTABLE CHARACTERISTICS
     private Integer level;
