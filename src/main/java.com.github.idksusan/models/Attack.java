@@ -1,4 +1,4 @@
-package model;
+package models;
 
 public class Attack {
     private String name;
