@@ -21,3 +21,6 @@ public class Character {
     private List<String> traits;
     private List<String> features;
 }
+
+// Break up fields into immutable vs mutable in different classes. Break up classes into more objects.
+// Change immutable/mutable naming convention.

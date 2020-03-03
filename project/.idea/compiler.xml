@@ -7,10 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="rollcall" />
+        <module name="case study" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="rollcall" target="1.8" />
-    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rollcall" options="-parameters" />
+    </option>
   </component>
 </project>
