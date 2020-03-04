@@ -1,2 +1,2 @@
 # Roll Call
-A web application designed to help newcomers jump right into playing Dungeons and Dragons.
+A web application designed to help newcomers jump right into playing Dungeons and Dragons. All material is based on Dungeons and Dragons 5th edition and all intellectual property belongs to Wizards of the Coast.
