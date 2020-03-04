@@ -2,13 +2,14 @@ package models;
 
 import java.util.List;
 
-public class ImmutableCharacteristics {
+// All characteristics that are immutable through the game.
+
+public class Core {
     private String name;
     private String description;
     private CharRace charRace;
     private CharClass charClass;
-    private CosmeticCharacteristics cosmeticCharacteristics;
-    private Integer age;
+    private Cosmetics cosmetics;
     private String background;
     private String alignment;
     private List<String> languages;

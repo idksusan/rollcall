@@ -3,7 +3,7 @@ package models;
 import java.util.List;
 
 public class Character {
-    private ImmutableCharacteristics immutableCharacteristics;
+    private Core core;
 
     //MUTABLE CHARACTERISTICS
     private Integer level;
