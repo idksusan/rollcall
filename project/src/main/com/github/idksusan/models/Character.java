@@ -1,9 +1,10 @@
-package models;
+package main.com.github.idksusan.models;
 
 import java.util.List;
 
 public class Character {
     private Core core;
+
 
     //MUTABLE CHARACTERISTICS
     private Integer level;

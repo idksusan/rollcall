@@ -1,4 +1,4 @@
-package models;
+package main.com.github.idksusan.models;
 
 // Appearance-related characteristics.
 

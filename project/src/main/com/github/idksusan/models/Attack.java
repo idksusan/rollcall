@@ -1,4 +1,4 @@
-package models;
+package main.com.github.idksusan.models;
 
 public class Attack {
     private String name;
